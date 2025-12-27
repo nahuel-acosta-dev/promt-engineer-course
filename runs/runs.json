@@ -1,0 +1,33 @@
+[
+  {
+    "timestamp": "2025-12-26T23:05:26.472Z",
+    "model": "gpt-5-mini",
+    "prompt": "Explicame en 2 líneas qué es prompt engineering.",
+    "output": "El prompt engineering es el arte y la técnica de diseñar y refinar entradas (prompts) para modelos de lenguaje con el fin de obtener respuestas útiles, precisas y controladas.  \nImplica elegir palabras, estructura, contexto y ejemplos, iterar y usar instrucciones específicas para guiar el modelo hacia el resultado deseado."
+  },
+  {
+    "timestamp": "2025-12-26T23:13:50.273Z",
+    "model": "gpt-5-mini",
+    "prompt": "prompts/course/basic_prompt.md",
+    "output": "El prompt engineering es el arte y técnica de diseñar y refinar instrucciones (prompts) para modelos de IA con el fin de obtener respuestas más útiles, precisas y controladas.  \nSe relaciona con la IA generativa porque los prompts son la entrada que guía directamente lo que modelos generativos (texto, imágenes, código) producen, mejorando calidad, coherencia y control sobre la salida."
+  },
+  {
+    "timestamp": "2025-12-27T01:41:26.823Z",
+    "model": "gpt-5-mini",
+    "prompt": "prompts/course/basic_prompt.md",
+    "output": "Hace 65 millones de años muchas especies se extinguieron debido a cambios ambientales a gran escala. La explicación principal es el impacto de un gran asteroide o cometa, que habría bloqueado la luz solar, alterado el clima y provocado incendios globales. Recientemente también se investiga si erupciones volcánicas masivas y variaciones del nivel del mar contribuyeron al empeoramiento ambiental y a la extinción."
+  },
+  {
+    "timestamp": "2025-12-27T01:44:01.175Z",
+    "model": "gpt-5-mini",
+    "prompt": "prompts/course/basic_prompt.md",
+    "output": "La teoría más destacada es que un enorme asteroide o cometa se estrelló con la Tierra hace 65 millones de años, lo que bloqueó la luz solar, cambió el clima y disparó incendios globales."
+  },
+  {
+    "timestamp": "2025-12-27T01:45:44.880Z",
+    "model": "gpt-5-mini",
+    "promptPath": "prompts/course/basic_prompt.md",
+    "prompt": "# Tarea\n\nresume este texto:\n\"\"\"¿Qué sucedió que causó una devastación tan amplia hace 65 millones de años? Los científicos coinciden en que las especies se extinguen principalmente como resultado de cambios en su ambiente. La extinción de muchas especies alrededor del mundo en un momento refleja cambios a gran escala en el ambiente global.\nPara explicar lo que causó esta extinción masiva, los científicos se han enfocado en eventos que hubieran alterado el clima de nuestro planeta de formas drámaticas y poderosas. La teoría más destacada es que un enorme asteroide o cometa se estrelló con la Tierra hace 65 millones de años, lo que bloqueó la luz solar, cambió el clima y disparó incendios globales. En años recientes, sin embargo, los investigadores también han estado estudiando si otras fuerzas, incluyendo erupciones volcánicas masivas y cambios en el nivel del mar, pudieron contribuir al debilitamiento ambiental general.\"\"\"\n\n#Instrucciones\n\n*Resumilo en 1 linea.\n*No agregues informacion que no esta en el texto\n\\*En el resumen solo puede haber oraciones que esten en el texto ninguna inventada\n",
+    "output": "La teoría más destacada es que un enorme asteroide o cometa se estrelló con la Tierra hace 65 millones de años, lo que bloqueó la luz solar, cambió el clima y disparó incendios globales."
+  }
+]
