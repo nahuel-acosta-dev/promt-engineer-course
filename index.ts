@@ -3,6 +3,9 @@ import path from "path";
 import "dotenv/config";
 import OpenAI from "openai";
 
+const PROMPT_PATH = "prompts/course/review_prompt.md";
+const RESULT_PATH = "runs.json";
+
 const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
@@ -17,7 +20,7 @@ async function getCompletion(prompt: string, model = "gpt-5-mini") {
 }
 
 const RUNS_DIR = path.resolve("runs");
-const RUNS_FILE = path.join(RUNS_DIR, "runs.json");
+const RUNS_FILE = path.join(RUNS_DIR, RESULT_PATH);
 
 type RunEntry = {
   timestamp: string;
@@ -75,7 +78,7 @@ function validateResponse(output: any) {
 
 async function main() {
   //const promptPath = "prompts/01_basics/zero-shot.md";
-  const promptPath = "prompts/course/basic_prompt.md";
+  const promptPath = PROMPT_PATH;
 
   const model = "gpt-5-mini";
 
@@ -85,6 +88,8 @@ async function main() {
 
   console.log("=== OUTPUT ===");
   console.log(out);
+
+  //validateResponse(out);
 
   saveRun({
     timestamp: new Date().toISOString(),
